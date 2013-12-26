@@ -38,7 +38,7 @@ grunt.initConfig({
 ### Options
 
 #### options.type
-Type: <i>Necessary</i>`String`
+Type: `(Necessary) String`
 Default value: `null`
 
 
@@ -46,21 +46,21 @@ A string value that defines what type of reference should the task/target update
 specify it youself.
 
 #### options.from
-Type: <i>Necessary</i>`String|Array of string`
+Type: `(Necessary) String|Array of string`
 Default value: `null`
 
 
 It defines which reference will be updated/removed. If it is a string, it will be replaced by `options.to`, and if it is an array of string, only the first one  will be replaced by `options.to`, and the others will be removed. It's default value is null, so you need to specify it youself.
 
 #### options.to
-Type: <i>Necessary</i>`String`
+Type: `(Necessary) String`
 Default value: `''`
 
 
 It defines what `options.from` will be replaced with. If `options.prefix` is defiend, it will be merged with `options.prefix`. You need to specify it youself.
 
 #### options.prefix
-Type: <i>Optional</i>`String|Array`
+Type: `(Optional) String|Array`
 Default value: `''`
 
 If it is a string, the final `options.to` will be `options.to = options.prefix + options.to`; If it is an array of string, it should contain two elements, and the final `options.to` will be `options.to = options.to.replace(options.prefix[0], options.prefix[1])`.

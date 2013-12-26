@@ -1,6 +1,6 @@
 # grunt-updateref
 
-> A Grunt plugin to update the references of external js/css files in html file. It is mostly used after grunt-contrib-concat plugin.
+> A Grunt plugin to update the references to external js/css files in html file. It is mostly used after grunt-contrib-concat plugin.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`
@@ -67,7 +67,7 @@ If it is a string, the final `options.to` will be `options.to = options.prefix +
 
 ### Usage Examples
 
-#### Update reference of external `css` file
+#### Update reference to external `css` file
 In this example, references contain strings in `options.form` in the src file `'test/src/formated.html'` will be replaced by `options.to: 'libs/libs.css(merged with options.prefix)'`, and the result will be saved to `dest:'test/dist/formated.html'`.
 
 ```js
@@ -106,7 +106,7 @@ and the dest file `'test/dist/formated.html'` will like:
 <link href="libs/font-awesome/css/font-awesome.css" rel="stylesheet">
 ...
 ```
-#### Update reference of external `js` file
+#### Update reference to external `js` file
 In this example, references contain strings in `options.form` in the src file `'test/src/formated.html'` will be replaced by `options.to: 'libs/libs.js(merged with options.prefix)'`, and the result will be saved to `dest:'test/dist/formated.html'`.
 
 ```js
